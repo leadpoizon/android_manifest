@@ -35,6 +35,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="nexus" revision="lp" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="nexus" revision="lp" />
 
+  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="nexus" revision="lp" />
   <!-- Proprietary Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="nexus" revision="lp" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="nexus" revision="lp" />
@@ -81,7 +82,6 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
