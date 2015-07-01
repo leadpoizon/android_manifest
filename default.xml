@@ -43,7 +43,10 @@
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="nexus" revision="lp" />
   <project path="vendor/nexus" name="android_vendor_nexus" remote="nexus" revision="lp" />
 
+  <!-- Kernel Source -->
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="nexus" revision="lp" />
+  <project path="kernel/asus/flo" name="android_kernel_asus_flo" groups="device,flo" remote="nexus" revision="lp" />
+
   <!-- Proprietary Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="nexus" revision="lp" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="nexus" revision="lp" />
@@ -63,7 +66,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
