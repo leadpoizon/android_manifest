@@ -47,7 +47,7 @@
 
   <!-- Kernel Source -->
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="nexus" revision="lp" />
-  <project path="kernel/asus/flo" name="android_kernel_asus_flo" groups="device,flo" remote="nexus" revision="lp" />
+  <project path="device/asus/flo-kernel" name="android_kernel_asus_flo" groups="device,flo" remote="nexus" revision="lp" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="nexus" revision="lp" />
