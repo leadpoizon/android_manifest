@@ -52,6 +52,7 @@
 
   <!-- Kernel Source -->
   <project path="device/asus/flo-kernel" name="android_kernel_asus_flo" groups="device,flo" remote="nexus" revision="lp" />
+  <project path="kernel/htc/flounder" name="android_kernel_htc_flounder" groups="device,flounder" remote="nexus" revision="lp" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="nexus" revision="lp" />
@@ -83,7 +84,6 @@
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
