@@ -56,6 +56,7 @@
 
   <!-- Proprietary Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="nexus" revision="lp" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="nexus" revision="lp" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="nexus" revision="lp" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="nexus" revision="lp" />
 
