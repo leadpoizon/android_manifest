@@ -39,6 +39,7 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="nexus" revision="lp" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nexus" revision="lp" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="nexus" revision="lp" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="nexus" revision="lp" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="nexus" revision="lp" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nexus" revision="lp" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nexus" revision="lp" />
@@ -405,7 +406,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
