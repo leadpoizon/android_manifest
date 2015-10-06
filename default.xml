@@ -2,7 +2,10 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+  <remote name="nexus"
+           fetch="https://github.com/PureNexus/" /> 
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -10,6 +13,7 @@
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="manifest" name="android_manifest" remote="nexus" revision="mm" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
