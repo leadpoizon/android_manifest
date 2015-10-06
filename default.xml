@@ -10,10 +10,14 @@
            remote="aosp"
            sync-j="4" />
 
+  <!-- Pure Repo's -->
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="android_manifest" remote="nexus" revision="mm" />
+  <project path="vendor/nexus" name="android_vendor_nexus" remote="nexus" revision="mm" />
+
+  <!-- AOSP Repo's -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
