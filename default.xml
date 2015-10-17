@@ -15,6 +15,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="android_manifest" remote="nexus" revision="mm" />
+  <project path="device/asus/flo" name="android_device_asus_flo" groups="device,flo" remote="nexus" revision="mm" />
   <project path="device/htc/flounder" name="android_device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="nexus" revision="mm" />
   <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="nexus" revision="mm" />
   <project path="external/busybox" name="android_external_busybox" remote="nexus" revision="mm" />
@@ -54,7 +55,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
