@@ -39,6 +39,7 @@
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="nexus" revision="mm" />
 
   <!-- Proprietary Vendors -->
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="nexus" revision="mm" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="nexus" revision="mm" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="nexus" revision="mm" />
 
