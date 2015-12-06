@@ -25,6 +25,7 @@
   <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="nexus" revision="mm" />
   <project path="external/busybox" name="android_external_busybox" remote="nexus" revision="mm" />
   <project path="external/chromium-webview" name="external_chromium-webview" remote="nexus" revision="mm" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="nexus" revision="mm" />
   <project path="external/exfat" name="android_external_exfat" remote="nexus" revision="mm" />
   <project path="external/fuse" name="android_external_fuse" remote="nexus" revision="mm" />
   <project path="external/google" name="android_external_google" remote="nexus" revision="mm" />
@@ -133,7 +134,6 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
