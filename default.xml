@@ -4,8 +4,22 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+
+  <remote name="lead"
+           fetch="https://github.com/leadpoizon/" />
+
   <remote name="nexus"
-           fetch="https://github.com/PureNexus/" /> 
+           fetch="https://github.com/PureNexus/" />
+
+  <remote name="chroma"
+           fetch="https://github.com/Chroma-Aosp/" />
+           
+  <remote name="pd"
+           fetch="https://github.com/ProjectDisco/" />
+           
+  <remote name="cm"
+           fetch="https://github.com/CyanogenMod/" />
+           
   <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
            sync-j="4" />
